@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid-conteudo-banner {
+    background-image: url(img-pagina-home/Banner.png);
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-grid-conteudo-banner h1 {
+    color: aliceblue;
+}
+
+.container-grid-conteudo-banner p {
+    color: aliceblue;
+}
+
+.Bandas {}
