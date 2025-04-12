@@ -9,14 +9,126 @@
     height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
 }
 
 .container-grid-conteudo-banner h1 {
     color: aliceblue;
+    display: flex;
+    justify-content: center;
 }
 
 .container-grid-conteudo-banner p {
     color: aliceblue;
+    max-width: 50%;
+    text-align: center;
 }
 
-.Bandas {}
+.Bandas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    background-image: url(img-pagina-home/Rectangle\ 103.svg);
+}
+
+.AcDc {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.infoAcdc {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+}
+
+.button_AcDc {
+    align-self: flex-end;
+    margin-right: 25%;
+    background-color: #FAD800;
+}
+
+.GunsNRose {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    flex-direction: column;
+    margin-top: 5%;
+}
+
+.infoGunsnRose {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+}
+
+.button_GunsNRose {
+    align-self: flex-end;
+    margin-right: 25%;
+    background-color: #FAD800;
+}
+
+.Kiss {
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.infoKiss {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5%;
+}
+
+.button_Kiss {
+    align-self: flex-end;
+    margin-right: 25%;
+    background-color: #FAD800;
+}
+
+
+.AcDc p {
+    max-width: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
+.GunsNRose p {
+    max-width: 50%;
+    text-align: center;
+    color: aliceblue;
+   
+}
+
+.Kiss p {
+    max-width: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    gap: 5%;
+}
+
+footer img {
+    
+}
