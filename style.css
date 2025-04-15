@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Dose';
+    src: url(Fontes/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url(Fontes/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +30,14 @@
     color: aliceblue;
     display: flex;
     justify-content: center;
+    font-family: 'Dose';
 }
 
 .container-grid-conteudo-banner p {
     color: aliceblue;
     max-width: 50%;
     text-align: center;
+    font-family: 'Quicksand';
 }
 
 .Bandas {
@@ -33,7 +45,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
+
 
     background-image: url(img-pagina-home/Rectangle\ 103.svg);
 }
@@ -57,6 +69,10 @@
     align-self: flex-end;
     margin-right: 25%;
     background-color: #FAD800;
+    font-family: 'Quicksand';
+    height: 50px;
+    width: 130px;
+    border-radius: 11%;
 }
 
 .GunsNRose {
@@ -78,6 +94,10 @@
     align-self: flex-end;
     margin-right: 25%;
     background-color: #FAD800;
+    font-family: 'Quicksand';
+    height: 50px;
+    width: 130px;
+    border-radius: 11%;
 }
 
 .Kiss {
@@ -100,6 +120,10 @@
     align-self: flex-end;
     margin-right: 25%;
     background-color: #FAD800;
+    font-family: 'Quicksand';
+    height: 50px;
+    width: 130px;
+    border-radius: 11%;
 }
 
 
@@ -107,28 +131,33 @@
     max-width: 50%;
     text-align: center;
     color: aliceblue;
+    font-family: 'Quicksand';
 }
 
 .GunsNRose p {
     max-width: 50%;
     text-align: center;
     color: aliceblue;
-   
+    font-family: 'Quicksand';
 }
 
 .Kiss p {
     max-width: 50%;
     text-align: center;
     color: aliceblue;
+    font-family: 'Quicksand';
 }
 
 footer {
     display: flex;
     justify-content: center;
-    margin-top: 3%;
-    gap: 5%;
+    margin-top: 1%;
+    gap: 3%;
+    font-family: 'Quicksand';
 }
 
-footer img {
-    
+footer p {
+    margin-top: 1%;
 }
+
+footer img {}
