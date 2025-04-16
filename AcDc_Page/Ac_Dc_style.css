@@ -1,0 +1,28 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Membros{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Membros h1 {
+    color: aliceblue;
+    font-family: 'Dose';
+}
+.Membros p {
+    color: aliceblue;
+}
