@@ -19,10 +19,17 @@ header {
     justify-content: space-around;
 }
 
-.Membros h1 {
+ .titulo h1 {
     color: aliceblue;
     font-family: 'Dose';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
 }
 .Membros p {
     color: aliceblue;
+}
+
+.Membros {
+   text-align: center;
 }
