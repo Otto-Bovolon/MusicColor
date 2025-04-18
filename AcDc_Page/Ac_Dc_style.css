@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -14,22 +13,71 @@ header {
     justify-content: center;
 }
 
-.Membros{
+.Membros {
     display: flex;
-    justify-content: space-around;
+    gap: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+    padding: 0 10%;
+
 }
 
- .titulo h1 {
+.Membros div {
+
+    margin-bottom: 5%;
+
+}
+
+.titulo h1 {
     color: aliceblue;
     font-family: 'Dose';
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
 }
+
 .Membros p {
     color: aliceblue;
 }
 
-.Membros {
-   text-align: center;
+.membros1 {
+    display: contents;
+}
+
+.Musicas h2,
+h3 {
+    color: aliceblue;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Musicas h2 {
+    padding-top: 10%;
+}
+.Musicas h3 {
+    padding-bottom: 10%;
+}
+
+.to_hell {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.to_hell img {
+    max-width: 50%;
+}
+
+.to_hell p {
+    color: #FF4500;
+}
+
+#Emoção {
+    color: aliceblue;
+    z-index: 4;
+    
 }
