@@ -58,26 +58,81 @@ h3 {
 .Musicas h2 {
     padding-top: 10%;
 }
+
 .Musicas h3 {
     padding-bottom: 10%;
 }
 
-.to_hell {
+.to_hell,
+.to_hell2 {
+    height: 22vh;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
 }
+
+.to_hell {
+    background-image: url(../AcDc_Page/img-ac_dc/Banner_Musica_ac_dc.png);
+}
+
+.to_hell2 {
+    background-image: url(../AcDc_Page/img-ac_dc/Banner_Musica_ac_dc_black.png);
+    width: 100%;
+}
+
 .to_hell img {
     max-width: 50%;
 }
 
-.to_hell p {
+.Musicas h4 {
     color: #FF4500;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 #Emoção {
-    color: aliceblue;
-    z-index: 4;
-    
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-left: 16%;
+}
+
+#Emoção2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-left: 16%;
+}
+
+#porque {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 26%;
+    margin-bottom: 10%;
+}
+#porque2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 26%;
+}
+
+.pai_porque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.fundo_branco {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
 }
