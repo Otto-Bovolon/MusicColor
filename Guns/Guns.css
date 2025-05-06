@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.Membros {
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    text-align: center;
+    /* margin-left: 10%;
+    margin-right: 10%; */
+
+    padding: 0 10%;
+
+}
+
+.Membros div {
+
+    margin-bottom: 5%;
+
+}
+
+.titulo h1 {
+    color: aliceblue;
+    font-family: 'Dose';
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+.Membros p {
+    color: aliceblue;
+}
+
+.membros1 {
+    display: contents;
+}
+
+.Musicas h2,
+h3 {
+    color: aliceblue;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.Musicas h2 {
+    padding-top: 10%;
+}
+
+.Musicas h3 {
+    padding-bottom: 10%;
+}
+
+.to_hell,
+.to_hell2 {
+    height: 22vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    background-size: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+
+.to_hell {
+    background-image: url(../Guns/img_Guns/Fundo_Guns.png);
+}
+
+.to_hell2 {
+    background-image: url(../Guns/img_Guns/Fundo_Guns_black.png);
+    width: 100%;
+}
+
+.to_hell img {
+    max-width: 50%;
+}
+
+.Musicas h4 {
+    color: #8B0000;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+#Emoção {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    margin-left: 16%;
+}
+
+#Emoção2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-left: 16%;
+}
+
+#porque {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 26%;
+    margin-bottom: 10%;
+}
+.porque2 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    text-align: center;
+    max-width: 26%;
+}
+
+#Girls_Got_Rhythm {
+    color: #FF1493;
+}
+#Walk_All_Over_You {
+    color: #581845;
+}
+#Touch_Too_Much {
+    color: #4B0082;
+}
+
+#Beating_Around_the_Bush {
+    color: #ADFF2F;
+}
+
+#Shot_Down_in_Flames {
+    color: #B22222;
+}
+
+#Get_It_Hot {
+    color: #FF8C00;
+}
+
+#If_You_Want_Blood {
+    color: #DC143C;
+}
+
+#Love_Hungry_Man {
+    color: #34495E;
+}
+
+#Night_Prowler {
+    color: #191970;
+}
+.pai_porque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.fundo_branco {
+    display: flex;
+    background-color: antiquewhite;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: end;
+    padding-right: 15rem;
+}
+
+.button_AcDc {
+    background-color: #FAD800;
+    font-family: 'Quicksand';
+    height: 50px;
+    width: 130px;
+    border-radius: 11%;
+}
